@@ -1,0 +1,74 @@
+body {
+  font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  margin: 0;
+  background-image: url('../images/fresh_snow.png')
+
+}
+
+
+.navbar {
+ background: white;
+ border: none;
+ border-bottom: 2px solid gray;
+ min-height: 80px;
+ margin-bottom: 0;
+ margin-left: auto;
+ margin-right: auto;
+ padding-left: 2em;
+ width: 100%;
+}
+
+.navbar-brand {
+  background-color: #4aaaa5;
+  padding: 0 2em;
+  line-height: 80px;
+  min-height: 80px;
+}
+
+.navbar-brand-text {
+  color: white;
+  font-family: 'Times New Roman', 'Georgia', Times, serif;
+  font-weight: 700;
+
+}
+
+.navbar-links {
+  margin: 0 auto;
+  padding: .51em;
+  margin-right: 2em;
+  font-size: 18px;
+}
+
+
+@media (max-width: 768px) {
+  ul {
+    display: inline
+  }
+}
+
+@media (max-width: 640px) {
+  .navbar {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .navbar-brand {
+    width: 100%;
+    text-align: center;
+}
+
+#navbar-links-div .navbar-links {
+  /* width: 100%; */
+  text-align: center;
+  padding: 5px 0;
+  margin: auto;
+}
+
+  .navbar-links-li {
+    float: left;
+    padding: 0;
+    text-align: center;
+    width: 33%;
+  }
+
+}
