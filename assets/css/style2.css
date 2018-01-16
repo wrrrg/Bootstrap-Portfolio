@@ -80,6 +80,7 @@ body {
   max-width: 90%;
   border: 1px solid gray;
   padding: 20px;
+  margin-bottom: 20px !important;
 }
 
 .connect-div {
@@ -130,6 +131,7 @@ body {
   opacity: 0.8;
   top:60%;
   width: 100%;
+  max-width: 200px;
   padding: 0;
   text-align: center;
 
@@ -142,6 +144,30 @@ body {
   padding: 3px;
   margin: 3px;
 }
+
+.col-portfolio {
+  margin-top: 10px !important;
+}
+
+/* Footer */
+
+footer {
+  background: #666666;
+  text-align: center;
+  position:fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  border-top: #4aaaa5 8px solid;
+  padding: 20px;
+}
+
+.footer-p {
+  font-weight: 100;
+  color: #CCCCCC;
+  font-size: .7rem;
+}
+
 
 /* Media Queries */
 @media (max-width: 765px) {
